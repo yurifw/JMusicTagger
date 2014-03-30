@@ -1,11 +1,17 @@
+# linux files
+*~
+
 # NetBeans specifics
 nbproject/private/
 build/
 nbbuild/
+nbproject/
 dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+build.xml
+manifest.mf
 
 *.class
 
@@ -13,7 +19,6 @@ nb-configuration.xml
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
