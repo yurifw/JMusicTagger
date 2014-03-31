@@ -291,7 +291,7 @@ public class FrmMain extends JFrame {
                 frame.setLayout(new GridLayout(1, 1));
                 frame.add(images);
                 frame.setSize(new Dimension(400, 400));
-                frame.setIconImage(new ImageIcon(getClass().getResource("/images/app-icon.png")).getImage());
+                frame.setIconImage(new ImageIcon(getClass().getResource("/br/com/jmusictagger/images/app-icon.png")).getImage());
                 frame.setVisible(true);
             }
         });
