@@ -309,11 +309,11 @@ public class FrmMain extends JFrame {
                         int opcao = fileChooser.showSaveDialog(null);
                         if (opcao == 0) {
                             tagModel.setCover(new File(fileChooser.getSelectedFile().getAbsolutePath()), 0);
-                        }
-                        JOptionPane.showMessageDialog(null, Message.get("changes_made"));
+                            JOptionPane.showMessageDialog(null, Message.get("changes_made"));
+                        }                        
                     }
                 } catch (Exception ex) {
-                    JOptionPane.showMessageDialog(null, e.toString());
+                    JOptionPane.showMessageDialog(null, ex.toString());
                 }
             }
         });
