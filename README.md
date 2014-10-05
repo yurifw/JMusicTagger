@@ -17,5 +17,6 @@ Funcionalidades extras:
   * Renomear arquivos de acordo com suas tags ID3,
   * Janela estilo "Windows Explorer mostrando todos os seus arquivos MP3
 
+[Download] (https://github.com/yurifw/JMusicTagger/blob/master/download/JMusicTagger.jar?raw=true)
 
 Migrado de https://code.google.com/p/jmusic-tagger/
